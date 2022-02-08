@@ -51,11 +51,11 @@ main {
 }
 
 .top:hover .overlay {
-    cursor: pointer;
     opacity: 0.4;
 }
 
 .top:hover .eye {
+    cursor: pointer;
     display: block;
     visibility: visible;
     opacity: 1;
@@ -157,11 +157,14 @@ main {
     color: var(--white);
 }
 
-.attribution {
-    font-size: 11px;
+footer {
+    position: absolute;
+    top: 85vh;
+    font-size: ps;
     text-align: center;
+    color: var(--white);
 }
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
+footer a {
+    color: var(--primary-cyan);
 }
